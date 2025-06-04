@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+alert ("Reino de Deus  ")
+ const nome = prompt ("Qual seu nome?")
+ console.log ("olá" +nome+ " Seja bem vindo ao Paraíso ")
+
+ let numero1 = prompt("Digite o valor do prato de entrada:")
+ numero1 = Number(numero1)
+ const multiplicado = numero1*2
+ console.log("De acordo com nossa promoção tudo em dobro, onde vc paga o mesmo valor do prato de entrada deu:"+multiplicado);
+
+ let numero2 = prompt("Digite o valor adicional das bebidas:");
+    numero2 = Number(numero2);
+
+    const soma = multiplicado + numero2;
+    console.log("Sua conta sem o serviço do garçom é: R$" + soma.toFixed(2));
+
+    const taxaGarcom = soma * 0.10;
+    const totalComServico = soma + taxaGarcom;
+
+    console.log("Taxa do garçom: R$" + taxaGarcom.toFixed(2));
+    console.log("Total com serviço incluso: R$" + totalComServico.toFixed(2));
+
+
+
+    </script>
+
+    
+</body>
+</html>
